@@ -65,7 +65,6 @@ class Key {
   std::tuple<std::vector<uint8_t>, bool> Sign(
       const std::vector<uint8_t> &hash) const;
 
- private:
   bool CalculatePublicKey(bool compressed);
 
  private:
